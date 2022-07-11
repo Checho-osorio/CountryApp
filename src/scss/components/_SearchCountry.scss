@@ -1,0 +1,42 @@
+.inputContent{
+    display: flex;
+    background: var(--backgroundWhite);
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 15px 20px;
+
+    @media screen and (max-width: 720px) {
+          padding: 20px;
+    }
+
+    &__icon{
+        width: 30px;
+        height: 20px;
+
+        & .icon-search{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__input{
+        width: 90%;
+        border: none;
+        background: var(--backgroundWhite);
+
+        &::placeholder{
+            color: var(--text-secundary);
+        }
+
+        &:focus {
+            border: none;
+            outline: none;
+        }
+
+        &:active {
+            border: none;
+            outline: none;
+        }
+        
+    }
+}

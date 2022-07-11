@@ -1,0 +1,21 @@
+.content_toggle{
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+    gap: 15px;
+
+    &-icon{
+        width: 30px;
+        height: 30px;
+
+        & .icon-darkMode{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &-text{
+        font-weight: 400 !important;
+        font-size: 16px !important;
+    }
+}
